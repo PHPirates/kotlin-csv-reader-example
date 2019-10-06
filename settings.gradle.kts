@@ -1,1 +1,1 @@
-rootProject.name = "kotlin-template-project"
+rootProject.name = "kotlin-csv-reader-example"
