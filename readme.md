@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/PHPirates/kotlin-csv-reader-example.svg?branch=master)](https://travis-ci.org/PHPirates/kotlin-csv-reader-example)
+[![Build Status](https://travis-ci.com/PHPirates/kotlin-csv-reader-example.svg?branch=master)](https://travis-ci.com/PHPirates/kotlin-csv-reader-example)
 
 # Example of reading a csv file line by line using Kotlin
 
