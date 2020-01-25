@@ -1,16 +1,16 @@
 plugins {
 
-    val kotlinVersion = "1.3.11"
+    val kotlinVersion = "1.3.61"
 
     application
     kotlin("jvm") version kotlinVersion
     java // Required by at least JUnit.
 
     // Plugin which checks for dependency updates with help/dependencyUpdates task.
-    id("com.github.ben-manes.versions") version "0.22.0"
+    id("com.github.ben-manes.versions") version "0.27.0"
 
     // Plugin which can update Gradle dependencies, use help/useLatestVersions
-    id("se.patrikerdes.use-latest-versions") version "0.2.12"
+    id("se.patrikerdes.use-latest-versions") version "0.2.13"
 }
 
 application {
@@ -18,9 +18,9 @@ application {
 }
 
 dependencies {
-    compile(kotlin("stdlib"))
+    implementation(kotlin("stdlib"))
     // To "prevent strange errors".
-    compile(kotlin("reflect"))
+    implementation(kotlin("reflect"))
 
     implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3")
 }
