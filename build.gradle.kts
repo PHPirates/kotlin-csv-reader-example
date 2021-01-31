@@ -13,10 +13,6 @@ plugins {
     id("se.patrikerdes.use-latest-versions") version "0.2.15"
 }
 
-application {
-    mainClassName = "deltadak.HelloWorld"
-}
-
 dependencies {
     implementation(kotlin("stdlib"))
     // To "prevent strange errors".
